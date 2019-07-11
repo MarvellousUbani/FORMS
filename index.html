@@ -33,33 +33,38 @@
 		<div class="row">
 			<div class="col">
 			<div class="white-box">
-              <div class="formarea">
+              <div class="formtitlearea">
 				<h4 class="text-center">Create an Intuit account</h4>
 				</div>
-        <div>
+        <div class="formarea">
           <form action="myform.cgi">
-      <label>Email: <input type="email" name="email" size="30" maxlength="100"></label><br />
-      <br>
-</form>
-</div>
+          	<div class="form-group">
+			    <label for="emailaddress">Email address</label>
+			    <input type="email" class="form-control" id="emailaddress" aria-describedby="emailHelp" name="email">
+			  </div>
 
-<label for="phone">Phone (Recommended):</label>
+          
+			<div class="form-group">
+			<label for="phone">Phone (Recommended):</label>
+			<input type="tel" id="phone" class="form-control" name="phone"
+			       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+			       required>
+			       <small>Standardcalls,messaging or data rates may apply</small>
+			 </div>
+            
+              <div class="form-group">
+			  Password:
+			  <input type="password" name="psw" class="form-control">
 
-<input type="tel" id="phone" name="phone"
-       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-       required>
-       <small>standardcalls,messaging or data rates may apply</small>
+			   <button type="submit" class="btn btn-blue submitBtn my-3"><i class="fa fa-lock" aria-hidden="true"></i> Create Account </button>
+			  </div>
 
-<form>
-  Password:<br>
-  <input type="password" name="psw">
-</form>
+			  <p class="smallFont"><em>By clicking Create account, you agree to our <a href="#">Terms</a> and have read and acknowledge our Privacy Statement.</em></p>
 
-<div>
-  <form>
-           <input type="submit" value="Create Account" />
-</form>
-</div>
+			</form>
+
+
+		 </div>
 
 
 				<div class="tocarea smallFont">

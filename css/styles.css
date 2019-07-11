@@ -43,8 +43,13 @@ body{
 }
 
 
-.formarea{
+.formtitlearea{
 	padding:2rem 1.5rem;
+}
+
+.formarea{
+	max-width: 300px;
+	margin:auto;
 }
 
 .tocarea{
@@ -56,4 +61,9 @@ body{
 .footer{
 	max-width: 600px;
 	margin:3rem auto;
+}
+
+.submitBtn{
+	width:100%;
+	text-align: center;
 }
