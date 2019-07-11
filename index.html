@@ -13,7 +13,7 @@
   </head>
   <body>
 
-  	
+
 	<div class="container-fluid">
 		<div class="row py-2">
 			<div class="col-8"></div>
@@ -36,6 +36,31 @@
               <div class="formarea">
 				<h4 class="text-center">Create an Intuit account</h4>
 				</div>
+        <div>
+          <form action="myform.cgi">
+      <label>Email: <input type="email" name="email" size="30" maxlength="100"></label><br />
+      <br>
+</form>
+</div>
+
+<label for="phone">Phone (Recommended):</label>
+
+<input type="tel" id="phone" name="phone"
+       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+       required>
+       <small>standardcalls,messaging or data rates may apply</small>
+
+<form>
+  Password:<br>
+  <input type="password" name="psw">
+</form>
+
+<div>
+  <form>
+           <input type="submit" value="Create Account" />
+</form>
+</div>
+
 
 				<div class="tocarea smallFont">
 					Invisible reCAPTCHA by <a href="#">Google Privacy Policy</a> and Terms of Use.
