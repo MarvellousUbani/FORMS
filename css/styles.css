@@ -23,6 +23,26 @@ body{
 	width:100%;
 }
 
+.label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+.input,.label {
+    margin: .4rem 0;
+}
+
+.label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+.input,
+.label {
+    margin: .4rem 0;
+}
+
+
 .formarea{
 	padding:2rem 1.5rem;
 }
