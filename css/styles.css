@@ -6,6 +6,12 @@ body{
 	font-size: .75em;
 }
 
+.formsubtitle{
+	font-size: .9rem;
+	max-width: 90%;
+    margin:auto;
+}
+
 .btn-blue{
 	color:#fff;
 	border-radius: 0;
