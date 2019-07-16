@@ -6,5 +6,5 @@ HTML forms
 Created a sign up form 
 
 #### Authors:
-[Asha] (https://github.com/Ashah15)
-[Micheals] (https://github.com/MarvellousUbani)
+[Asha](https://github.com/Ashah15)
+[Micheals](https://github.com/MarvellousUbani)
