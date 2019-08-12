@@ -1,16 +1,19 @@
-# FORMS
-HTML forms
-## the live site is at https://ashah15.github.io/FORMS/
+# Project Title
+Forms (A clone of a form page on mint.com)
+
+## Live Project
+[Click Here](https://marvellousubani.github.io/FORMS/)
 
 ### Description: 
-Created a sign up form 
+Created a Sign Up Clone Page From Mint.com
 
 #### Authors:
-[Asha](https://github.com/Ashah15)
+[Asha](https://github.com/Ashah15) &
 [Micheals](https://github.com/MarvellousUbani)
 
-##### link to the HTML-Form screenshot:
-![form image](https://user-images.githubusercontent.com/25789605/61314807-1d847180-a806-11e9-9038-e0cf8cd052ec.png)
+#### Project Screenshot:
 
-###### Link to the HTML-FORM project:
-theodinproject.com/courses/ruby-on-rails/lessons/forms 
+![Mint Clone Form Page](https://user-images.githubusercontent.com/17970203/62873782-e2e3fb00-bd17-11e9-9f17-c05a137899e1.png)
+
+###### Link to the Assignment:
+[Click here](theodinproject.com/courses/ruby-on-rails/lessons/forms)
